@@ -1,0 +1,11 @@
+body { font-family: sans-serif; background: #f4f7fb; margin: 0; }
+.carte { max-width: 640px; margin: 60px auto; padding: 32px; background: #fff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.etiquette { color: #1f5fa8; font-weight: bold; text-transform: uppercase; font-size: 12px; }
+.pied { color: #777; border-top: 1px solid #eee; padding-top: 12px; }
+.etat { color: #444; }
+.point { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-left: 6px; }
+.point.ok { background: #1db954; }
+.point.ko { background: #d33; }
+.liste { list-style: none; padding: 0; }
+.liste li { padding: 10px 0; border-top: 1px solid #eee; }
+.liste li.fait { text-decoration: line-through; color: #999; }
